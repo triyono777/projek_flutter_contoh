@@ -12,9 +12,6 @@ class NilaiAkhirPage extends StatefulWidget {
 class _NilaiAkhirPageState extends State<NilaiAkhirPage> {
   String? nilaiAkhirHuruf;
   double? nilaiRataRata;
-  int? nilaiTugas;
-  int? nilaiUTS;
-  int? nilaiUAS;
 
   TextEditingController? inputNilaiTugas = TextEditingController();
   TextEditingController? inputNilaiUTS = TextEditingController();
