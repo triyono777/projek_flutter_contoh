@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projek_contoh/nilai_akhir_page.dart';
+import 'nilai_akhir_page.dart';
 
 import 'home_page.dart';
 
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: NilaiAkhirPage(),
+      home: HomePage(),
     );
   }
 }
