@@ -54,13 +54,25 @@ class _NilaiAkhirPageState extends State<NilaiAkhirPage> {
           Text(nilaiAkhirHuruf ?? "nilai akhir"),
           SizedBox(height: 30),
           TextFormField(
-              // decoration: InputDecoration(labelText: "masukkan nilai Tugas"),
+              decoration: InputDecoration(
+                labelText: "masukkan nilai Tugas",
+                hintText: "nilai antara 0-100",
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(15),
+                ),
+                prefixIcon: Icon(
+                  Icons.task,
+                ),
+                suffixIcon: Icon(
+                  Icons.check,
+                ),
+              ),
               controller: inputNilaiTugas),
           TextFormField(
-              // decoration: InputDecoration(labelText: "masukkan nilai UTS"),
+              decoration: InputDecoration(labelText: "masukkan nilai UTS"),
               controller: inputNilaiUTS),
           TextFormField(
-              // decoration: InputDecoration(labelText: "masukkan nilai UAS"),
+              decoration: InputDecoration(labelText: "masukkan nilai UAS"),
               controller: inputNilaiUAS),
           SizedBox(height: 30),
           ElevatedButton(
